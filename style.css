@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  background-color: gray;
+}
+body{
+  max-width: 1550px;
+  max-height: 290px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+div{
+  text-align: center;
+  display: inline-block;
+  padding: 5%;
+
+}
+p{
+  font-style: normal;
+  text-align: center;
+}
+img{
+  background-color: white;
+  border-radius: 50%;
+}
+
+a>img:hover{
+  border-radius: 50%;
+  background-color: #2a69a6;
+  border-color: white;size: 3px;solid-color: white;
+}
